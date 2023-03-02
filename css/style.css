@@ -1,3 +1,5 @@
+/* Login and register */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 *{
     padding: 0;
@@ -14,7 +16,6 @@ section{
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    
     background: url('../img/background.png')no-repeat;  
     background-position: center;
     background-size: cover;
@@ -23,6 +24,19 @@ section{
     position: relative;
     width: 400px;
     height: 450px;
+    background: #fff;
+    border: 2px solid black;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-boxx{
+    position: relative;
+    width: 400px;
+    height: 550px;
     background: #fff;
     border: 2px solid black;
     border-radius: 20px;
@@ -118,6 +132,8 @@ button{
 .register p a:hover{
     text-decoration: underline;
 }
+
+/* Navbar */
 
 :root{
     --bg-color: #fff;
